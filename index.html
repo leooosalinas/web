@@ -10,16 +10,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <script src="https://kit.fontawesome.com/235faffe45.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(function() {
+            $("#header").load("header.html");
+        });
+    </script>
+
 </head>
 
 <body>
 
-    <header>
-        <div class="container">
-            <h1>Leonardo Salinas</h1>
-            <h3>Comunicador. A veces creativo. A veces convencional.</h3>
-            <img src="leonardo-salinas.jpg" alt="Leonardo Salinas">
-        </div>
+    <header id="header">
+        
     </header>
 
     <div class="container">
@@ -34,7 +37,7 @@
         <p>Ni historias ni nada, sólo <i>work work work.</i> Aquí tienes mi CV, y descárgalo en PDF si te va mejor.</p>
 
         <h2>Mis redes sociales</h2>
-        <p>Estoy en <a href="https://www.linkedin.com/in/leooosalinas" target="_blank">LinkedIn</a>, <a href="https://www.instagram.com/leooosalinas/" target="_blank">Instagram</a> y <a href="https://tiktok.com/@leooosalinas" target="_blank">TikTok</a></p>
+        <p class="socialmedia">Estoy en <a href="https://www.linkedin.com/in/leooosalinas" target="_blank">LinkedIn</a>, <a href="https://www.instagram.com/leooosalinas/" target="_blank">Instagram</a> y <a href="https://tiktok.com/@leooosalinas" target="_blank">TikTok</a></p>
     </div>
 
     <!-- <footer>
