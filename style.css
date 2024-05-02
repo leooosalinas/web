@@ -53,7 +53,7 @@
      text-decoration: underline;
  }
 
- .socialmedia a:after {
+ a[target="_blank"]:after {
      font-family: "Font Awesome 6 Free";
      font-size: 1rem;
      content: "\f35d";
