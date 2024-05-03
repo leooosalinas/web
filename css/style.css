@@ -15,7 +15,7 @@ body {
      font-family: 'Public Sans', 'Arial', sans-serif;
      font-size: 1.2em;
      color: #424242;
-     margin: 0 0 2rem 0;
+     margin: 0;
      padding: 0;
  }
 
@@ -95,7 +95,7 @@ body {
 
  footer {
      background: #f8f9fa;
-     padding: 1rem 0;
+     padding: 2rem 0;
  }
 
  @media (max-width: 1280px) {
